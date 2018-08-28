@@ -1,0 +1,42 @@
+body{
+	background: #f8f8f8
+} 
+
+.link{
+	color: #FF1493;
+	font-size: medium;
+	font-family: "Times New Roman", Verdana;
+	list-style-type: none;
+}
+#Heads{
+	color: black;
+	font-size: 18px;
+	font-weight: 400;	
+	background-color: #eaeaea;
+}
+#ShortCut{
+	color: #707070;
+	font-size: 14px;
+	font-style: italic;	
+	line-height: 16px;
+}
+#LongStory{
+	color: #484343;
+	font-size: 16px;	
+	font-style: italic;	
+	line-height: 24px;
+	text-align: left;
+}
+#CharSet{
+	color: #2F4F4F;
+	font-stretch: 12px;
+	font-style: oblique;
+	text-align: center;
+
+}
+#Contacts{
+	width: 100px;
+	height: 100px;
+	font-family: "Times New Roman", Verdana;
+	color: red;
+}
