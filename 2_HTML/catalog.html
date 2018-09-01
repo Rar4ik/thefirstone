@@ -9,19 +9,52 @@
 </head>
 <body>
 <hr/>
+<div class = "header"> 
 <h2>Каталог</h2>
 <h4> Меню </h4>
 <ul>
-	<li><a href = "index.html"> Главная </a></li>
-	<li><a href = "catalog.html"> Каталог</a></li>
-	<li><a href = "contacts.html"> Контакты</a></li>
+	<li><a class="link" href = "index.html"> Главная </a></li>
+	<li><a class="link" href = "catalog.html"> Каталог</a></li>
+	<li><a class="link" href = "contacts.html"> Контакты</a></li>
 </ul>
+</div>
+<hr/>
 Пример нашего единственного товара: 
 <br>
 <img src ="../2_HTML/garage.jpg" width="300" height="300" target="_blank" />
 <br>
 <a href="../2_HTML/1.html" target="_blank">Ссылка </a> на подробное описание товара
+<table>
+		<caption>Сравнительная характеристика</caption>
+		<thead><tr>
+			<th></th>
+			<th>Размер</th>			
+			<th>Тип дверей</th>
+			<th>Дизайнерская обработка</th>
+			<th>Максимально разрешенный вес пользователя</th>
+		</tr></thead>
+		<tr>
+			<th>Гараж синий</th>
+			<td>13,7 м3</td>
+			<td>Дерево</td>			
+			<td>Имеется</td>
+			<td rowspan="3">120 кг</td>
+		</tr>
+		<tr>
+			<th>Гараж красный</th>
+			<td>10 м3</td>
+			<td>Титан</td>			
+			<td rowspan="2">Отсутсвует</td>
+		</tr>
+		<tr>
+			<th>Гараж зеленый</th>
+			<td>14 м3</td>
+			<td>Алмаз</td>			
+		</tr>
+		<tr>
+			<th colspan="6">Более подробную информацию смотрите на странице товара</th>
+		</tr>
+	</table>
 <hr/>
-<p align="right">&copy; Все права защищены</p>
-</body>
+<div class = "footer"> &copy; Все права защищены</div></body>
 </html>

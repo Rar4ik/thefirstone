@@ -2,41 +2,96 @@ body{
 	background: #f8f8f8
 } 
 
-.link{
-	color: #FF1493;
-	font-size: medium;
+
+
+.link:hover{
+	color: green;
+	background: #e24486;
+	font-size: small-caps;
 	font-family: "Times New Roman", Verdana;
 	list-style-type: none;
 }
-#Heads{
+.heads{
 	color: black;
 	font-size: 18px;
 	font-weight: 400;	
 	background-color: #eaeaea;
 }
-#ShortCut{
+.ShortCut{
 	color: #707070;
 	font-size: 14px;
 	font-style: italic;	
 	line-height: 16px;
 }
-#LongStory{
+.LongStory{
 	color: #484343;
 	font-size: 16px;	
 	font-style: italic;	
 	line-height: 24px;
 	text-align: left;
 }
-#CharSet{
+.CharSet{
 	color: #2F4F4F;
 	font-stretch: 12px;
 	font-style: oblique;
 	text-align: center;
 
 }
-#Contacts{
+.Contacts{
 	width: 100px;
 	height: 100px;
 	font-family: "Times New Roman", Verdana;
 	color: red;
+}
+.header{
+	background-color: gray;
+	height: 100%;
+	width: 100%;
+}
+.footer{
+	background-color: #40E0D0;
+	height: 100%;	
+	width: 100%;
+	text-align: right;
+}
+input[type="text"],
+textarea {
+	text-transform: capitalize;
+}
+input[type="email"] {
+	width: 200px; height: 25px;
+	border-width: 1px;
+	border-color: #5faf8a #b9cea5;
+	font-size: 14px;
+	color: #002868;
+}
+input[type="email"]:focus {
+	color: #0000ff;
+	background-color: #e0ffff;
+}
+table,
+td,
+th {
+	border: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+}
+td,
+th {
+	width: 150px;
+	height: 30px;
+	text-align: center;
+}
+th {
+	background: #c6f5f0;
+}
+td {
+	background: #f2fcfb;
+}
+caption {
+	font-size: 18px;
+}
+thead tr{
+	height: 50px;
 }
