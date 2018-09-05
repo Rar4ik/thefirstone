@@ -1,9 +1,6 @@
 body{
 	background: #f8f8f8
 } 
-
-
-
 .link:hover{
 	color: green;
 	background: #e24486;
@@ -35,7 +32,7 @@ body{
 	font-stretch: 12px;
 	font-style: oblique;
 	text-align: center;
-
+	float: right;
 }
 .Contacts{
 	width: 100px;
@@ -47,13 +44,53 @@ body{
 	background-color: gray;
 	height: 100%;
 	width: 100%;
+	float: left;
 }
 .footer{
 	background-color: #40E0D0;
-	height: 100%;	
+	height: 20px;	
 	width: 100%;
 	text-align: right;
+	position: fixed;
+   bottom:0;
+   left:0;
 }
+.logo{
+	margin:10px;
+	float: left;
+}
+.container{
+	width: 100%;    	
+}
+.buy{
+	 color: #fff;
+	 text-decoration: none;
+	 background: rgb(212,75,56);
+	 outline: none;
+	
+}
+.buy:hover{
+	 background: rgb(232,95,76);
+}
+.buy:active{
+	background: rgb(152,15,0);
+}
+ul.horizontal{
+margin:0;
+padding:0;
+}
+ul.horizontal li{
+display: inline;
+padding:0 5px
+}
+.nav {
+        text-align:right;        
+        width: 1300px;
+        float: right;
+		margin:10px;
+		margin-bottom: 50px;
+		padding:0 5px;
+    }
 input[type="text"],
 textarea {
 	text-transform: capitalize;
@@ -95,3 +132,4 @@ caption {
 thead tr{
 	height: 50px;
 }
+
